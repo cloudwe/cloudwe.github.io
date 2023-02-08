@@ -1,0 +1,277 @@
+
+/*  allowing website to have font of sans-serif */
+*{
+  font-family: sans-serif;
+  font-weight: 500;
+}
+/* background colour white */
+body{
+  background-color: rgb(255, 255, 255);
+}
+
+/* adding padding to section otherwise it will be too high up */
+section {
+  padding-top: 50px;
+  padding:80 px;
+}
+
+/* changing fonts for title 1 and 2 */
+.title1 {
+  font-weight: 750;
+  color: #437FC7;
+  letter-spacing: 1px;
+}
+
+.display-4 {
+  color: #ececec;
+  font-weight: 600;
+  letter-spacing: 2px;
+}
+
+/* making nav text more bold */
+.nav-item {
+  font-weight: 550;
+}
+ 
+/* changing font in dropdown */
+.dropdown-item {
+  color: #3D3D3D;
+  
+}
+
+/* editing intro 1 (banner) using # as it is a section */
+#intro1 {
+  background-image: 
+  linear-gradient(to bottom, rgba(245, 246, 252, 0.548), rgba(36, 83, 129, 0.623)), 
+  url("images/a.PNG");
+  height: 100vh;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  position: relative;
+
+}
+
+
+/* changing button to be upercase and padding, font-size etc */
+.btn {
+  padding: 14px 32px;
+  font-size: 14px;
+  font-weight: 600;
+  letter-spacing: 1px;
+  text-transform: uppercase;
+}
+
+/* changing button colour and making it round*/
+.btn-primary {
+  background-color:#437FC7; 
+  /* making button have round corners */
+  border-radius: 100px;
+
+}
+
+.btn-secondary{
+  /* making button have round corners */
+  border-radius: 100px;
+  background-color: #6DAFFE;
+
+}
+
+/* making a line for the main menu */
+.intro2 .divider {
+  background-color: #437FC7;
+  height: 2px;
+  width: 120px;
+  margin: 18px auto;
+}
+
+/* making navbar have sheer white background colour*/
+.navbar {
+  background-color:#fffffff5;
+}
+
+/* setting a margin for spacing on main-menu */
+.main-menu {
+  margin-bottom: 50px;
+}
+
+
+/* changing how I would like icons to appear in my website such as
+sizing, display for responsiveness as it is flex and colours */
+.icon-box {
+  width: 80px;
+  height: 80px;
+  background-color:#6DAFFE;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  border-radius: 100px;
+  margin: 0 auto 24px auto;
+  color: white;
+}
+
+/* the size of icon is being changed to 34 pixels */
+.icon-box {
+  font-size: 34px;
+}
+
+/* changing section final1 to a background color */
+#final1 {
+  background-color:rgba(207, 222, 233, 0.961)
+
+}
+
+
+/* footer background colour and setting margins for spacing */
+footer a {
+  color: #3D3D3D;
+  margin-left: 10px;
+  margin-right: 10px;
+}
+
+/* * means all elements with have 0 margin and 0 padding by default with box for
+padding and borders */
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+
+/* background colour of webpage is a whitish colour */
+body{
+  background: #fcfcfc;
+}
+
+/* changing footer */
+/* positon is palced here, bottom 1 placed when at 0 it sometimes goes to the top. */
+footer{
+  /* positioinign and spacing the footer */
+  position: absolute;
+  bottom: 1;
+  left: 0;
+  right: 0;
+  /* background colour of footer */
+  background: rgb(247, 247, 247);
+  /* height is auto for responsiveness so content can be adjusted */
+  height: auto;
+  /* changing width size */
+  width: 100vw;
+  /* font for footer */
+  font-family: "Open Sans";
+  /* padding for space inside the footer */
+  padding-top: 40px;
+  /* text of colour inside the footer */
+  color: rgb(49, 33, 33);
+}
+
+
+/* the content of the footer */
+.footer-content{
+  /* positioning the items of the footer to be centered */
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+  text-align: center;
+}
+
+
+/* changing the header3 inside footer-conter, for a specific font size, font
+weight, and line height as well as capitalzing the letters. */
+.footer-content h3{
+  font-size: 1.8rem;
+  font-weight: 400;
+  text-transform: capitalize;
+  line-height: 3rem;
+}
+
+/* changing paragraph inside footer contnet for a maximum width of 500px, margin of
+10px auto for spacing*/
+.footer-content p{
+  max-width: 500px;
+  margin: 10px auto;
+  line-height: 28px;
+  font-size: 14px;
+}
+
+/* changing the socials for the footer in terms of spacing and positioning */
+.socials{
+  list-style: none;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin: 1rem 0 3rem 0;
+}
+
+/* setting spacing for lists for the socials */
+.socials li{
+  margin: 0 10px;
+}
+
+/* links have no underline and changed colour */
+.socials a{
+  text-decoration: none;
+  color: rgb(80, 80, 80);
+}
+
+/* changing font size of socials and adding transition
+of colour that lasts 4 miliseconds and ease means smoothly*/
+.socials a i{
+  font-size: 3.1rem;
+  transition: color .4s ease;
+
+}
+
+
+/* when hovering the transition will happen and will change colour to blue */
+.socials a:hover i{
+  color: #6DAFFE;
+}
+
+
+/* changing footer background, padidng for spacing, width for size,
+and making sure text is centered */
+.footer-bottom{
+  background: rgb(247, 247, 247);
+  width: 100vw;
+  padding: 20px 0;
+  text-align: center;
+}
+
+/* paragraph of footer is font-size 14, spacing of words is 2 and texts
+are capitalized */
+.footer-bottom p{
+  font-size: 14px;
+  word-spacing: 2px;
+  text-transform: capitalize;
+}
+
+/* changing footer-bottom to be uppercase and opacity of .4 with
+font-weight 200 */
+.footer-bottom span{
+  text-transform: uppercase;
+  opacity: .4;
+  font-weight: 200;
+}
+
+
+
+/* making sure links have no underlines */
+
+a:link { text-decoration: none; }
+
+
+a:visited { text-decoration: none; }
+
+/* editing the links to change color when hovered on */
+a:hover { 
+  text-decoration: none; 
+  color:#437FC7;
+}
+
+
+a:active { text-decoration: none; }

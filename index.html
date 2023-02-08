@@ -1,0 +1,289 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <!-- title of page -->
+  <title>HBW | Home </title>
+  <!-- for responsiveness -->
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <!-- linking bootstrap css-->
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-GLhlTQ8iRABdZLl6O3oVMWSktQOp6b7In1Zl3/Jr59b6EGGoI1aFkw7cmDA6j6gD" crossorigin="anonymous">
+  <!-- linkinh all stylesheets to my own pages, as
+  some CSS have been used than can be shared on all
+pages instead of duplicating the same codes.-->
+  <link rel="stylesheet" href="About.css">
+  <!-- a link to another CSS stylesheet that has classes of logos. I do use
+  bootstrap but for the main menu and some other logos I liked these. -->
+  <link rel="stylesheet" href="css/et-icons.css">
+  <link rel="stylesheet" href="Home.css">
+  <link rel="stylesheet" href="Courses.css">
+</head>
+
+<body>
+  
+<!-- NAVBAR, fixed top so when scroll navbar stays -->
+<nav class="navbar navbar-expand-lg navbar-light fixed-top ">
+  <!-- not fluid as wanted the navbar not too much to the left-->
+    <div class="container">
+      <a class="navbar-brand" href="https://cloudwe.github.io"> <img src="images/logo.png" alt="Company logo" width=150 height=40> </a>
+      <button class="navbar-toggler bg-light" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+        <span class="navbar-toggler-icon"></span>
+      </button>
+      <div class="collapse navbar-collapse" id="navbarSupportedContent">
+        <!-- changed to MS-auto not ME-auto to allow items have space from logo -->
+        <ul class="navbar-nav ms-auto mb-2 mb-lg-0">
+<!-- active page in navbar, home because this is active for this page-->
+          <li class="nav-item">
+            <a class="nav-link active" aria-current="page" href="https://cloudwe.github.io">HOME</a>
+          </li>
+          <!-- other items on navbar -->
+          <li class="nav-item">
+            <a class="nav-link text-primary" href="https://cloudwe.github.io/About">ABOUT</a>
+          </li>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link text-primary" href="https://cloudwe.github.io/Team">TEAM</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link text-primary" href="https://cloudwe.github.io/Courses">COURSES</a>
+          </li>
+          <li class="nav-item dropdown">
+            <a class="nav-link dropdown-toggle text-primary" href="https://cloudwe.github.io/Apply" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+              APPLY
+            </a>
+            <ul class="dropdown-menu">
+              <li><a class="dropdown-item" href="https://cloudwe.github.io/Job-Information">Job Information</a></li>
+              <li><a class="dropdown-item" href="https://cloudwe.github.io/Apply">Application Form</a></li>
+
+            </ul>
+          </li>
+        </ul>
+      </div>
+    </div>
+  </nav>
+
+
+   <!-- intro section -->
+   <!-- -->
+
+   <section id="intro1" class="text-white text-center overlay">
+    <div class="container">
+      <div class="text-center">
+        <img src="images/mascotcircle.png" class="rounded-circle" alt="Bean, Mascot" height="200px" width="200px">
+      </div>
+      <br>
+        <div class="row">
+          <div class="col-12">
+            <h6 class="title1" > IMAGINATION TURNS TO INNOVATION</h6>
+            <h1 class= "display-4 my-5" > HOT BEAN WEB <br> FOR WEBSITE DEVELOPMENT</h1>
+            <!-- blue button from bootstrap-->
+            <a class="btn btn-primary" href="https://cloudwe.github.io/Apply"> APPLY NOW </a>
+
+          </div>
+        </div>
+    </div>
+  </section>
+
+<!-- main menu section -->
+<!-- container, rows, col-md-8 for responsiveness from bootstrap allows to dictate
+where elements etc should be positioned on devices-->
+<section id="main-menu" class="text-center">
+  <div class="container">
+    <div class="row">
+      <div class="col-md-8 intro2 mx-auto">
+        <br>
+        <h1>MAIN MENU</h1>
+        <!-- used divider which i used CSS to make it a line-->
+        <div class="divider"></div>
+        <p> Learn more about what our website has to offer by selecting one of the options below.</p>
+      </div>
+    </div>
+<br>
+
+<!-- copy and pasted-->
+<!-- row is used to line items in a row -->
+    <div class="row">
+      <!-- small to large screens 6 coloms, large+ 6 coloms-->
+      <div class="col-lg-4 col-sm-6">
+        <br>
+        <div class="info-box bg-light rounded-5">
+          <br>
+          <div class="icon-box" py-5 px-4"><i class="icon-heart"></i></div>
+            <h5 class="mb-2"> About Us </h5>
+            <p> Learn more about our company  <br>
+             and our mascot, Bean.</p>
+            <a class="btn btn-primary mb-5" href="https://cloudwe.github.io/About"> About </a>
+        </div>
+      </div>
+      <div class="col-lg-4 col-sm-6">
+        <br>
+        <div class="info-box bg-light  rounded-5">
+          <br>
+          <div class="icon-box" py-5 px-4"><i class="icon-profile-male"></i></div>
+            <h5 class="mb-2"> Meet the Team </h5>
+            <p>Check out our current Website  <br>
+             developer profiles!  </p>
+             <a class="btn btn-primary mb-5" href="https://cloudwe.github.io/Team"> Team </a>
+        </div>
+      </div>
+      <div class="col-lg-4 col-sm-6">
+        <br>
+        <div class="info-box bg-light  rounded-5">
+          <br>
+          <div class="icon-box" py-5 px-4"><i class=" icon-briefcase"></i></div>
+            <h5 class="mb-2"> Courses </h5>
+            <p> Discover our Website Development<br>
+                Courses</p>
+                <a class="btn btn-primary mb-5" href="https://cloudwe.github.io/Courses"> Courses </a>
+        </div>
+      </div>
+      <div class="col-lg-4 col-sm-6">
+        <br>
+        <div class="info-box bg-light  rounded-5">
+          <br>
+          <div class="icon-box" py-5 px-4"><i class="icon-browser"></i></div>
+            <h5 class="mb-2"> Job Information </h5>
+            <p> Learn about the role of a<br>
+              Website Developer.</p>
+              <a class="btn btn-primary mb-5" href="https://cloudwe.github.io/Job-Information"> Job Info </a>
+        </div>
+      </div>
+      <div class="col-lg-4 col-sm-6">
+        <br>
+        <div class="info-box bg-light  rounded-5">
+          <br>
+          <div class="icon-box" py-5 px-4"><i class="icon-clipboard"></i></div>
+            <h5 class="mb-2"> Apply </h5>
+            <p> Apply now to work as a <br>
+              Website Developer</p>
+              <a class="btn btn-primary mb-5" href="https://cloudwe.github.io/Apply"> Apply </a>
+        </div>
+      </div>
+      <div class="col-lg-4 col-sm-6">
+        <br>
+        <div class="info-box bg-light  rounded-5">
+          <br>
+          <div class="icon-box" py-5 px-4"><i class="icon-refresh"></i></div>
+            <h5 class="mb-2"> Home </h5>
+            <p> Return to the Home <br>
+               page.</p>
+               <a class="btn btn-primary mb-5" href="https://cloudwe.github.io"> Home </a>
+        </div>
+      </div>
+
+    </div>
+  </div>
+</section>
+<!-- breaks -->
+<br>
+<br>
+<br>
+<br>
+
+<!--bootstrap carousel -->
+<section id="inspo">
+  <div id="carouselExampleCaptions" class="carousel slide" data-bs-ride="carousel">
+    <div class="carousel-indicators">
+      <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="0" class="active" aria-current="true" aria-label="Slide 1"></button>
+      <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="1" aria-label="Slide 2"></button>
+      <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="2" aria-label="Slide 3"></button>
+    </div>
+    <div class="carousel-inner">
+      <!-- adding my own ID for class which is c-item so i can edit it in css-->
+      <div class="carousel-item active c-item">
+<!-- added my own image inside the bootstrap carousel-->
+        <img src="images/quote1.jfif" class="d-block w-100 cover" alt="Graphic background image for quote.">
+        <div class="carousel-caption top-0 mt-4">
+          <h1 class="mt-5 display-5 fw-bolder">❝There are three responses <br> to a piece of design — yes, no, and WOW! Wow is the one to aim for.❞</h1>
+          <h2>Milton Glaser</h2>
+        </div>
+      </div>
+      <div class="carousel-item c-item">
+        <!-- added my own image inside the bootstrap carousel-->
+        <img src="images/quote2.jfif" class="d-block w-100 cover" alt="Graphic background image for quote.">
+        <div class="carousel-caption top-0 mt-4">
+          <h1 class="mt-5 display-5 fw-bolder">❝Any fool can write code that a computer can understand. Good programmers write code that humans can understand.❞</h1>
+          <h2>Martin Fowler</h2>
+        </div>
+      </div>
+      <div class="carousel-item c-item">
+        <!-- added my own image inside the bootstrap carousel-->
+        <img src="images/quote3.PNG" class="d-block w-100 cover" alt="Graphic background image for quote.">
+        <div class="carousel-caption top-0 mt-4">
+          <h1 class="mt-5 display-5 fw-bolder">❝Web design is not just about creating pretty layouts. It’s about understanding the marketing challenge behind your business.❞</h1>
+          <h2>Mohamed Saad</h2>
+        </div>
+      </div>
+    </div>
+    <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide="prev">
+      <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+      <span class="visually-hidden">Previous</span>
+    </button>
+    <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide="next">
+      <span class="carousel-control-next-icon" aria-hidden="true"></span>
+      <span class="visually-hidden">Next</span>
+    </button>
+  </div>
+  </section>
+
+
+<!-- advertisement after footer-->
+<!-- id is to identifty the class to be used in CSS-->
+<div class="py-4 mt-5 text-center" id="final1">
+  <!-- container for responsiveness, py means adding padding vertically -->
+  <div class="container py-4">
+    <!-- justify contnet center is to ensure contnet stays center place-->
+    <div class="row align-items-center justify-content-center">
+          <!-- col md-6 is showing how many spaces items should take on medium
+          devices, which i put as 6. text will be centered and in black. -->
+      <div class="col-md-6 text-center text-black">
+        <h3> Want a career in Website Development?</h3>
+      </div>
+    <!-- chaning how much space elements take on medium screen to ensure
+    it takes up sufficent enough space without looking out of place.-->
+      <div class="col-md-4">
+        <a class="btn btn-primary" href="https://cloudwe.github.io/Job-Information"> Job Info </a>
+    </div>
+  </div>
+</div>
+
+
+  <!-- footer is used for footer. mt-3 is margin top by 3. this is to add more
+  space to the top of the item by 3.-->
+<!--footer-->
+<footer class="mt-3"> 
+  <div class="footer-content">
+      <h3>Hot Bean Web</h3>
+      
+    <p class="text-center"><a class="linksprofile" href="https://cloudwe.github.io">Home</a> <a class="linksfooter" href="https://cloudwe.github.io/About">About</a> <a class="linksfooter" href="https://cloudwe.github.io/Team">Team</a> <a class="linksfooter" href="https://cloudwe.github.io/Courses">Courses</a><a class="linksfooter" href="https://cloudwe.github.io/Job-Information
+      ">Job Info</a> <a class="linksfooter" href="https://cloudwe.github.io/Apply">Apply</a> 
+   
+      <!-- ul is unorganised list. meaning it would be bullet points
+      not ordered in numbers. i used UL for this list to ensure the li is
+    marked as unorganised. inside are links to socials. 
+  i class= is a linked in CSS spreadsheet to logos. I can easily access logos I like.-->
+      <ul class="socials">
+          <li><a href="https://www.facebook.com"><i class="icon-facebook"></i></a></li>
+          <li><a href="https://twitter.com/home?lang=en"><i class="icon-twitter"></i></a></li>
+          <li><a href="https://www.linkedin.com/login"><i class="icon-linkedin"></i></a></li>
+
+      </ul>
+  </div>
+  <!-- &copy; is a way of typing the copyright symbol. this is better for responsiveness
+  as copy and pasting the logo itself may not always be displayed on every
+browser etc. so having the code will be more likely to be recognised on most
+devices and browsers. -->
+  <div class="footer-bottom">
+      <p>copyright &copy;2023 HBW. designed by <span>Katarina Jones</span></p>
+  </div>
+</footer>
+
+
+
+<!-- javascript bootstrap link -->
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/js/bootstrap.bundle.min.js" integrity="sha384-w76AqPfDkMBDXo30jS1Sgez6pr3x5MlQ1ZAGC+nuZB+EYdgRZgiwxhTBTkF7CXvN" crossorigin="anonymous"></script>
+
+
+</body>
+</html> 
+

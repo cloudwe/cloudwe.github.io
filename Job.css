@@ -1,0 +1,29 @@
+
+/* editing intro 1 (banner) using # as it is a section exact same intro code
+just changed background image in every webpage*/
+#intro2 {
+    background-image: 
+    linear-gradient(0deg, rgba(45, 95, 136, 0.473), rgba(89, 133, 158, 0.411)),
+    url("images/banner3.png");
+    height: 60vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    position: relative;
+  
+  }
+
+/* i had different size text so divider had to match that, I changed
+the divider size here, */
+/* colour of divider will be blue, height is 2 pixels, width is 170 pixels
+and margin in this scenario allows how far down the divider will be at*/
+.divider2 {
+    background-color: #437FC7;
+    height: 2px;
+    width: 170px;
+    margin: 18px auto;
+  }
+

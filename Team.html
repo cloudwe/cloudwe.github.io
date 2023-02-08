@@ -1,0 +1,235 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <!-- title of page -->
+  <title>HBW | Team </title>
+  <!-- for responsiveness -->
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <!-- linking bootstrap css-->
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-GLhlTQ8iRABdZLl6O3oVMWSktQOp6b7In1Zl3/Jr59b6EGGoI1aFkw7cmDA6j6gD" crossorigin="anonymous">
+  <!-- linking required pages to this to share some css (saving code)-->
+  <link rel="stylesheet" href="Team.css">
+  <link rel="stylesheet" href="css/et-icons.css">
+  <link rel="stylesheet" href="Home.css">
+</head>
+
+<body>
+  
+<!-- bootstrap NAVBAR, fixed top so when scroll navbar stays -->
+<nav class="navbar navbar-expand-lg navbar-light fixed-top ">
+  <!-- not fluid as wanted the navbar not too much to the left-->
+    <div class="container">
+      <a class="navbar-brand" href="https://cloudwe.github.io"> <img src="images/logo.png" width=150 height=40 alt="company logo"> </a>
+      <button class="navbar-toggler bg-light" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+        <span class="navbar-toggler-icon"></span>
+      </button>
+      <div class="collapse navbar-collapse" id="navbarSupportedContent">
+        <!-- changed to MS-auto not ME-auto to allow items have space from logo -->
+        <ul class="navbar-nav ms-auto mb-2 mb-lg-0">
+<!-- active page in navbar, home because this is active for this page-->
+          <li class="nav-item">
+            <a class="nav-link text-primary" href="https://cloudwe.github.io">HOME</a>
+          </li>
+          <!-- other items on navbar -->
+          <li class="nav-item">
+            <a class="nav-link text-primary" href="https://cloudwe.github.io/About">ABOUT</a>
+          </li>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link active" aria-current="page" href="https://cloudwe.github.io/Team">TEAM</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link text-primary" href="https://cloudwe.github.io/Courses">COURSES</a>
+          </li>
+          <li class="nav-item dropdown">
+            <a class="nav-link dropdown-toggle text-primary" href="https://cloudwe.github.io/Apply" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+              APPLY
+            </a>
+              <!-- dropdown menu with links -->
+            <ul class="dropdown-menu">
+              <li><a class="dropdown-item" href="https://cloudwe.github.io/Job-Information">Job Information</a></li>
+              <li><a class="dropdown-item" href="https://cloudwe.github.io/Apply">Application Form</a></li>
+
+            </ul>
+          </li>
+        </ul>
+      </div>
+    </div>
+  </nav>
+
+
+  <!-- intro section -->
+  <!-- creating sections with container for responsivenesss, text will be white
+  text will be centered with overlay!-->
+  <section id="intro2" class="text-white text-center overlay">
+    <div class="container">
+      <div class="text-center">
+       
+      </div>
+      <br>
+        <div class="row">
+          <div class="col-12">
+            <h2 class="title1" > HOT BEAN WEB </h2>
+            <h1 class= "display-4 my-5" >  OUR TEAM </h1>
+            <!-- blue button from bootstrap-->
+            <a class="btn btn-primary mb-5" href="https://cloudwe.github.io"> Home </a>
+          </div>
+        </div>
+    </div>
+  </section>
+
+<!-- main menu section -->
+<section id="main-menu" class="text-center">
+  <!-- container for responsiveness-->
+  <div class="container">
+      <!-- row because items will be simply in a row,
+        changing size to make sure it fits on the screen nicely
+        with md to 8, mx auto is for centering, intro2 for unique identity
+      when using CSS i can change items. 
+      !!these cards are from BOOTSTRAP !! -->
+
+    <!-- copy and pasting these cards from bootstrap and editing headers, card-title
+    ,card-text to my liking.-->
+
+    <div class="row">
+      <div class="col-md-8 intro2 mx-auto">
+        <h1>OUR TEAM</h1>
+        <div class="divider"></div>
+        <p class="mb-5"> View our profiles of Trainee Website Developers.</p>
+        <!-- this is positing rows and columns using bootstrap classes to ensure
+        responsiveness and that elements are positoned correctly on devices-->
+        <div class="row row-cols-1 row-cols-md-3 g-4">
+          <div class="col">
+            <!-- these are bootstrap classes-->
+            <div class="card h-100">
+              <!-- alt is used when an image fails to load or for users with disabilites such
+              as those using screen readers. -->
+
+            <!-- rest of the cards are the same just copy and pasted-->
+              <img src="images/profile3.jpg"" class="card-img-top" alt="Profile image of a stickman.">
+              <div class="card-body">
+                <h5 class="card-title">Mark Davis</h5>
+                <p class="card-text">Hi, I'm Mark Davis. I'm 22 and I love my dog, Fluffy. I'm really into web development because it allows me to be creative.</p>
+              </div>
+            </div>
+          </div>
+          <div class="col">
+            <div class="card h-100">
+              <img src="images/profile1.jpg" class="card-img-top" alt="Profile image of a stickman.">
+              <div class="card-body">
+                <h5 class="card-title">Bob Smith</h5>
+                <p class="card-text">Hello, I'm Bob Smith. I'm 25 and I love playing games on my phone. I'm passionate about web development because I like programming.</p>
+              </div>
+            </div>
+          </div>
+          <div class="col">
+            <div class="card h-100">
+              <img src="images/profile6.jpg"" class="card-img-top" alt="Profile image of a stickman.">
+              <div class="card-body">
+                <h5 class="card-title">Lily Jones</h5>
+                <p class="card-text">Hi! I'm Lily, I'm 22. I like to collect swimming medals as a hobby, and when I'm not swimming I'm doing some website development and creating new solutions.
+                </p>
+              </div>
+            </div>
+          </div>
+          <div class="col">
+            <div class="card h-100">
+              <img src="images/profile5.jpg"" class="card-img-top" alt="Profile image of a stickman.">
+              <div class="card-body">
+                <h5 class="card-title">Mathew Miller </h5>
+                <p class="card-text">Hey, I'm Mathew Miller! I'm 19 and I love having my childhood teddy around when I'm coding for comfort. Some people might call it childish, but I find it comforting!
+</p>
+              </div>
+            </div>
+          </div>
+          <div class="col">
+            <div class="card h-100">
+              <img src="images/profile8.jpg"" class="card-img-top" alt="Profile image of a stickman.">
+              <div class="card-body">
+                <h5 class="card-title">Derek Brown</h5>
+                <p class="card-text">Hi, I'm Derek Brown, I'm 30 and the oldest. I love jigsaw puzzles and website development as they both allow me to problem solve which I love.</p>
+              </div>
+            </div>
+          </div>
+          <div class="col">
+            <div class="card h-100">
+              <img src="images/profileimage8.jpg"" class="card-img-top" alt="Profile image of a stickman.">
+              <div class="card-body">
+                <h5 class="card-title">Mia Johnson</h5>
+                <p class="card-text">Hi, I'm Mia, I'm 23. I do makeup in my free time and I enjoy working with teams to solve problems. Website development has always been my passion.</p>
+              </div>
+            </div>
+          </div>
+        </div>
+        </div>
+        <h2 class="mt-5"> You too can become a Website Developer.</h2>
+        <!-- linksprofile is to connect text to a link which i used here
+        to link up certain words to a link!-->
+        <p> When you are ready, you can <a class="linksprofile" href="https://cloudwe.github.io/Job-Information">learn more</a> about the job and <a class="linksprofile" href="https://cloudwe.github.io/Apply">apply</a>!</p>
+        </div>
+</section>
+<!-- simple way to add some breaks when margin top is not enough-->
+<br>
+<br>
+<br>
+<br>
+
+<!-- advertisement after footer-->
+<!-- id is to identifty the class to be used in CSS-->
+<div class="py-4 mt-5 text-center" id="final1">
+  <!-- container for responsiveness, py means adding padding vertically -->
+  <div class="container py-4">
+    <!-- justify contnet center is to ensure contnet stays center place-->
+    <div class="row align-items-center justify-content-center">
+          <!-- col md-6 is showing how many spaces items should take on medium
+          devices, which i put as 6. text will be centered and in black. -->
+      <div class="col-md-6 text-center text-black">
+        <h3> Want a career in Website Development?</h3>
+      </div>
+    <!-- chaning how much space elements take on medium screen to ensure
+    it takes up sufficent enough space without looking out of place.-->
+      <div class="col-md-4">
+        <a class="btn btn-primary" href="https://cloudwe.github.io/Job-Information"> Job Info </a>
+    </div>
+  </div>
+</div>
+
+   <!-- footer is used for footer. mt-3 is margin top by 3. this is to add more
+  space to the top of the item by 3.-->
+<!--footer-->
+<footer class="mt-3"> 
+  <div class="footer-content">
+      <h3>Hot Bean Web</h3>
+      
+    <p class="text-center"><a class="linksprofile" href="https://cloudwe.github.io">Home</a> <a class="linksfooter" href="https://cloudwe.github.io/About">About</a> <a class="linksfooter" href="https://cloudwe.github.io/Team">Team</a> <a class="linksfooter" href="https://cloudwe.github.io/Courses">Courses</a><a class="linksfooter" href="https://cloudwe.github.io/Job-Information
+      ">Job Info</a> <a class="linksfooter" href="https://cloudwe.github.io/Apply">Apply</a> 
+   
+      <!-- ul is unorganised list. meaning it would be bullet points
+      not ordered in numbers. i used UL for this list to ensure the li is
+    marked as unorganised. inside are links to socials. 
+  i class= is a linked in CSS spreadsheet to logos. I can easily access logos I like.-->
+      <ul class="socials">
+          <li><a href="https://www.facebook.com"><i class="icon-facebook"></i></a></li>
+          <li><a href="https://twitter.com/home?lang=en"><i class="icon-twitter"></i></a></li>
+          <li><a href="https://www.linkedin.com/login"><i class="icon-linkedin"></i></a></li>
+
+      </ul>
+  </div>
+  <!-- &copy; is a way of typing the copyright symbol. this is better for responsiveness
+  as copy and pasting the logo itself may not always be displayed on every
+browser etc. so having the code will be more likely to be recognised on most
+devices and browsers. -->
+  <div class="footer-bottom">
+      <p>copyright &copy;2023 HBW. designed by <span>Katarina Jones</span></p>
+  </div>
+</footer>
+
+
+<!-- javascript bootstrap link -->
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/js/bootstrap.bundle.min.js" integrity="sha384-w76AqPfDkMBDXo30jS1Sgez6pr3x5MlQ1ZAGC+nuZB+EYdgRZgiwxhTBTkF7CXvN" crossorigin="anonymous"></script>
+
+<!-- ending body and html here-->
+</body>
+</html> 
+

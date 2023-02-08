@@ -1,0 +1,66 @@
+
+
+/* editing intro 1 (banner) using # as it is a section */
+#intro2 {
+  background-image: 
+  linear-gradient(to bottom, rgba(245, 246, 252, 0.548), rgba(36, 83, 129, 0.623)), 
+  url("images/banner2.avif");
+  height: 60vh;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  position: relative;
+
+}
+
+
+/* making a line for the courses */
+.intro2 .divider1 {
+  background-color: #437FC7;
+  height: 2px;
+  width: 80px;
+  margin: 18px auto;
+}
+
+/* changing height of a class to 480px */
+.c-item {
+  height: 480px;
+
+}
+
+/* cover image changing height and using filter to lower the brightness
+so that text can be contrasted */
+.cover {
+  height: 700px;
+  object-fit: cover;
+  filter: brightness(0.6);
+}
+
+/* changing colour of the prices table*/
+.prices-table {
+  background-color: rgb(243, 243, 243)
+}
+
+/*changing list of the pricing table to have no bullet points
+or padding */
+
+.prices-table ul {
+  list-style: none;
+  padding: 0;
+  
+}
+
+/* adding spaces for the list */
+.prices-table ul li {
+  margin-top: 16px;
+}
+
+/* changng colour of the prices-table.  
+.primary is used because I am overriding the bootstrap colour of primary */
+.prices-table.primary {
+  background-color: #437FC7;
+}
+
