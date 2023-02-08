@@ -217,10 +217,10 @@ weight, and line height as well as capitalzing the letters. */
   color: rgb(80, 80, 80);
 }
 
-/* changing font size of socials and adding transition
+/* changing size of logos of socials and adding transition
 of colour that lasts 4 miliseconds and ease means smoothly*/
 .socials a i{
-  font-size: 1.1rem;
+  font-size: 1.5rem;
   transition: color .4s ease;
   text-align: center;
 
