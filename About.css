@@ -5,7 +5,7 @@
 #intro2 {
   background-image: 
   linear-gradient(to bottom, rgba(245, 246, 252, 0.548), rgba(36, 83, 129, 0.623)), 
-  url("images/a.JPG");
+  url("images/a.jpg");
   height: 60vh;
   display: flex;
   align-items: center;
